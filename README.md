@@ -7,19 +7,16 @@ It handles everything from pulling the latest code, setting up Docker & Nginx, t
 
 ## 🧰 Features
 
-✅ Secure SSH-based connection to the remote server
-✅ Automatic installation of Docker, Docker Compose, and Nginx**
-✅ Git repository cloning with Personal Access Token (PAT) authentication**
-✅ Automatic detection of Dockerfile or docker-compose.yml**
-✅ Rsync-based project file transfer**
-✅ Nginx reverse proxy configuration**
-✅ Automated deployment validation**
-✅ Optional cleanup mode**
-
----
+✅ Secure SSH-based connection to the remote server  
+✅ Automatic installation of Docker, Docker Compose, and Nginx  
+✅ Git repository cloning with Personal Access Token (PAT) authentication  
+✅ Automatic detection of Dockerfile or docker-compose.yml  
+✅ Rsync-based project file transfer  
+✅ Nginx reverse proxy configuration  
+✅ Automated deployment validation  
+✅ Optional cleanup mode
 
 ## 🧩 Prerequisites
-
 Before using the script, make sure you have:
 
 1. A remote Linux server (e.g., Ubuntu on DigitalOcean) 
@@ -34,6 +31,6 @@ Before using the script, make sure you have:
 ## 🔑 Generating an SSH Key (if you don’t have one)
 
 ## ⚙️ Usage
-Clone the repository
-Make the script executable
-Run the deployment
+1. Clone the repository  
+2. Make the script executable  
+3. Run the deployment
